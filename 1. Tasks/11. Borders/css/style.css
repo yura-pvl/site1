@@ -64,6 +64,8 @@ html, body {
     margin: 10px auto;
     line-height: 35px;
     text-indent: 5%;
+    font-size: 14px;
+    font-family: 'Arial', serif;
 }
 
 .e-mail.active {
