@@ -1,0 +1,11 @@
+@font-face {
+    font-family: lobster;
+    src: url(../fonts/Lobster.ttf);
+}
+
+.block {
+    width: 400px;
+}
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}

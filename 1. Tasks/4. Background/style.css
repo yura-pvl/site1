@@ -1,0 +1,16 @@
+header {
+    width: 100%; 
+    height: 100px; 
+    background-image: url(https://i.playground.ru/p/BMuj-_9-QgHB8Eerr0UmgA.jpeg);
+    background-size: cover;
+    opacity: 0.4;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+
+}
+
+footer {
+    width: 100%; 
+    height: 100px; 
+    
+}

@@ -1,0 +1,14 @@
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    display: inline-block;
+    font-size: 0;
+}
+.conteiner { 
+    word-spacing: 0;
+}
+
+.block .down{
+    vertical-align: bottom;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div">
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red"></div>
+        <div class="red blue"></div>
+        <div class="red"></div>
+        <div class="green red"></div>
+    </div>
+   <style>
+       .div {
+           width: 900px;
+           position: relative;
+           top: 100px;
+           display: flex;
+           flex-wrap: wrap;
+       }
+       .green.red {
+           position: absolute;
+           top: 30px;
+           left: 30px;
+           background-color: green;
+           display: block;
+       }
+       .red {
+           width: 270px;
+           height: 300px;
+           display: block;
+           background-color: red;
+           position: relative;
+       }
+       .red.blue {
+            left: 400px;
+            position: relative;
+            z-index: 100;
+            background-color: blue;
+       }
+   </style> 
+</body>
+</html>
