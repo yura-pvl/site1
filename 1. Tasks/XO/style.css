@@ -1,0 +1,41 @@
+
+.cell {
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 1px;
+    padding: 0;
+    background-color: yellow;
+    font-size: 90px;
+    text-align: center;
+}
+
+.box {
+    /* background-color:red; */
+    position: absolute;
+    left: calc( 50% - 150px);
+    top: 10%;
+}
+
+.result {
+    width: 200px;
+    height: 60px;
+    background-color: grey;
+    position: absolute;
+    left: calc( 50% - 100px);
+    top: calc(10% + 350px);
+    text-align: center;
+    padding: 10px;
+}
+.result h4 {
+    margin: 0;
+}
+
+.result a {
+    text-decoration: none;
+    color: red;
+}
+.result p {
+    margin: 0;
+}
